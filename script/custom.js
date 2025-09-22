@@ -68,7 +68,7 @@ $(function(){
 
   });
 
-  $('.footer-include').load('../include/footer.html', function(){
+  $('.footer-include').load('include/footer.html', function(){
     /* Footer LNB */
     $('.link-item-title').click(function(){
       $(this).next().stop().slideToggle(200);
