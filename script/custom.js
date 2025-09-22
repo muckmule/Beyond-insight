@@ -1,7 +1,7 @@
 $(function(){
 
   /* Include Files */
-  $('.header-include').load('include/header.html', function(){
+  $('.header-include').load('../include/header.html', function(){
 
     /* Mega Navigation : Mobile & PC Width Check */
     $(window).resize(function(){
@@ -68,7 +68,7 @@ $(function(){
 
   });
 
-  $('.footer-include').load('include/footer.html', function(){
+  $('.footer-include').load('../include/footer.html', function(){
     /* Footer LNB */
     $('.link-item-title').click(function(){
       $(this).next().stop().slideToggle(200);
