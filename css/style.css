@@ -213,7 +213,7 @@ header .header-inner .gnb a:hover:not(.trigger) {
 }
 header .header-inner .gnb .trigger:before {
   content: "";
-  background: url("./images/icon-category.png");
+  background: url("../images/icon-category.png");
   width: 20px;
   height: 18px;
   display: inline-block;
