@@ -1,7 +1,7 @@
 $(function(){
 
   /* Include Files */
-  $('.header-include').load('../include/header.html', function(){
+  $('.header-include').load('include/header.html', function(){
 
     /* Mega Navigation : Mobile & PC Width Check */
     $(window).resize(function(){
